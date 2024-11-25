@@ -1,0 +1,28 @@
+@import "vars";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $secondari-font;
+
+font-weight: 400;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: title-font;
+  font-weight: 700;
+}
